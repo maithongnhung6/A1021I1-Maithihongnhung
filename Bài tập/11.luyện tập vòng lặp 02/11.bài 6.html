@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        <script>
+        let i;
+        let j = 1;
+        for (; j <= 7; j++) {
+            if (j !=1 && j !=4 && j !=7) {
+                document.write("*");
+            } else {
+                document.write("&ensp;");
+            }
+        }
+        document.write("<br>");
+        for (i = 1; i<=4; i++) {
+            for (j = 1; j<=7; j++) {
+                if (i<=j && j<=8-i) {
+                    document.write("*");
+                } else {
+                    document.write("&ensp;");
+                }
+            }
+            document.write("<br>");
+        }
+
+    </script>
+    </script>
+</head>
+<body>
+
+</body>
+</html>
