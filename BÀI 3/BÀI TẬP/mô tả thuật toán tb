@@ -1,0 +1,7 @@
+Begin
+     Input Math
+     Input Ly
+     Input Hoa
+     Average = (Math + Physics + Chemistry) / 3
+     Display Average
+End
